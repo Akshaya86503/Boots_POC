@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="67718" started-at="2020-01-01T17:30:43Z" finished-at="2020-01-01T17:31:51Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="67718" started-at="2020-01-01T17:30:43Z" finished-at="2020-01-01T17:31:51Z">
+      <class name="com.qa.tests.HomePageTest">
+        <test-method status="PASS" signature="SetUpStart()[pri:0, instance:com.qa.tests.HomePageTest@6a4f787b]" name="SetUpStart" is-config="true" duration-ms="10570" started-at="2020-01-01T23:00:45Z" finished-at="2020-01-01T23:00:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUpStart -->
+        <test-method status="PASS" signature="RunAllTests(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.HomePageTest@6a4f787b]" name="RunAllTests" duration-ms="55899" started-at="2020-01-01T23:00:55Z" data-provider="getExcelData" finished-at="2020-01-01T23:01:51Z">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+            <param index="1">
+              <value is-null="true"/>
+            </param>
+            <param index="2">
+              <value is-null="true"/>
+            </param>
+            <param index="3">
+              <value is-null="true"/>
+            </param>
+            <param index="4">
+              <value is-null="true"/>
+            </param>
+            <param index="5">
+              <value is-null="true"/>
+            </param>
+            <param index="6">
+              <value is-null="true"/>
+            </param>
+            <param index="7">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RunAllTests -->
+        <test-method status="PASS" signature="SetUpEnd()[pri:0, instance:com.qa.tests.HomePageTest@6a4f787b]" name="SetUpEnd" is-config="true" duration-ms="0" started-at="2020-01-01T23:01:51Z" finished-at="2020-01-01T23:01:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUpEnd -->
+      </class> <!-- com.qa.tests.HomePageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
