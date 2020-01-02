@@ -12,6 +12,7 @@ public class HomePage extends BootsBaseClass
 {
 
 //page factory
+//Test project to add
 //Accept cookies button
 @FindBy(xpath="//*[contains(text(), 'Accept Cookies')]")
 WebElement cookieBtn;
