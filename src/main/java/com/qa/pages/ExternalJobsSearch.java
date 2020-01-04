@@ -155,7 +155,6 @@ public class ExternalJobsSearch extends BootsBaseClass
 	            letssearchCTA.click();
 	            Thread.sleep(4000);
 	            NewUtility.NewtabFunction(readmoreCTA);
-	            Thread.sleep(4000);
 	            ArrayList<String> tabs = new ArrayList<String> (driver.getWindowHandles());
 				driver.switchTo().window(tabs.get(1)); 
 	            applyBTN.click();

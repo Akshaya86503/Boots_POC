@@ -3,7 +3,6 @@ import java.awt.AWTException;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
-import org.openqa.selenium.By;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.DataProvider;
@@ -32,9 +31,8 @@ public class HomePageTest extends BootsBaseClass
  
  @DataProvider
  public Object[][] getExcelData() throws InvalidFormatException, IOException{
- return NewUtility.ExcelRedaer("D:/Akshaya/General/Other/"
- 		+ "Selenium Projects/Automated Testing With Selenium/Boots_POC/"
- 		+ "src/main/java/com/qa/testdata/Book2.xlsx", "Sheet1");
+ return NewUtility.ExcelRedaer("C:/Users/arahate/git/Boots_POC/src/"
+ 		+ "main/java/com/qa/testdata/Book2.xlsx", "Sheet1");
  }
   
 
@@ -75,10 +73,8 @@ public void SetUpStart() throws FileNotFoundException
 @Test(dataProvider = "getExcelData")
 public void RunAllTests(String key,String Loc,String Dist, String Busi, String Funct, String jobt, String Contr, String Jobr) throws InterruptedException, AWTException, InvalidFormatException, IOException
 {
-	//AcceptCookiesTest();
-	//SearchJobsExNavigationTest();
-	Thread.sleep(4000);
-   driver.findElement(By.xpath("//*[contains(text(), 'Accept Cookies')]")).click();
+	AcceptCookiesTest();
+	SearchJobsExNavigationTest();
 	testSenchaLogin(key,Loc,Dist,Busi,Funct,jobt,Contr,Jobr);
 }
 

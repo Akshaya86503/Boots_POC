@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="67718" started-at="2020-01-01T17:30:43Z" finished-at="2020-01-01T17:31:51Z">
+  <suite name="Default suite" duration-ms="93615" started-at="2020-01-04T07:47:16Z" finished-at="2020-01-04T07:48:50Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="67718" started-at="2020-01-01T17:30:43Z" finished-at="2020-01-01T17:31:51Z">
+    <test name="Default test" duration-ms="93615" started-at="2020-01-04T07:47:16Z" finished-at="2020-01-04T07:48:50Z">
       <class name="com.qa.tests.HomePageTest">
-        <test-method status="PASS" signature="SetUpStart()[pri:0, instance:com.qa.tests.HomePageTest@6a4f787b]" name="SetUpStart" is-config="true" duration-ms="10570" started-at="2020-01-01T23:00:45Z" finished-at="2020-01-01T23:00:55Z">
+        <test-method status="PASS" signature="SetUpStart()[pri:0, instance:com.qa.tests.HomePageTest@6a4f787b]" name="SetUpStart" is-config="true" duration-ms="16764" started-at="2020-01-04T13:17:17Z" finished-at="2020-01-04T13:17:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUpStart -->
-        <test-method status="PASS" signature="RunAllTests(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.HomePageTest@6a4f787b]" name="RunAllTests" duration-ms="55899" started-at="2020-01-01T23:00:55Z" data-provider="getExcelData" finished-at="2020-01-01T23:01:51Z">
+        <test-method status="PASS" signature="RunAllTests(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.HomePageTest@6a4f787b]" name="RunAllTests" duration-ms="75742" started-at="2020-01-04T13:17:34Z" data-provider="getExcelData" finished-at="2020-01-04T13:18:50Z">
           <params>
             <param index="0">
               <value is-null="true"/>
@@ -41,7 +41,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- RunAllTests -->
-        <test-method status="PASS" signature="SetUpEnd()[pri:0, instance:com.qa.tests.HomePageTest@6a4f787b]" name="SetUpEnd" is-config="true" duration-ms="0" started-at="2020-01-01T23:01:51Z" finished-at="2020-01-01T23:01:51Z">
+        <test-method status="PASS" signature="SetUpEnd()[pri:0, instance:com.qa.tests.HomePageTest@6a4f787b]" name="SetUpEnd" is-config="true" duration-ms="0" started-at="2020-01-04T13:18:50Z" finished-at="2020-01-04T13:18:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUpEnd -->
