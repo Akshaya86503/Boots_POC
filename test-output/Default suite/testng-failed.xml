@@ -6,8 +6,7 @@
       <class name="com.qa.tests.HomePageTest">
         <methods>
           <include name="SetUpStart"/>
-          <include name="SetUpEnd"/>
-          <include name="RunAllTests" invocation-numbers="0"/>
+          <include name="RunAllTests"/>
         </methods>
       </class> <!-- com.qa.tests.HomePageTest -->
     </classes>
